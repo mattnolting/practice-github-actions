@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GH_TOKEN: ${{ secrets.PRACTICE_GITHUB }}
-      NPM_TOKEN: ${{ secrets.PRACTICE_NPM }}
+      NPM_TOKEN: ${{ secrets.PRACTICE_NPM2 }}
     steps:
       - uses: actions/checkout@v2
       - name: Build my exercise
